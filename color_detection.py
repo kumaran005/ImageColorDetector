@@ -3,7 +3,7 @@ import pandas as pd
 from tkinter import filedialog
 import os
 
-
+#open image
 img_path = filedialog.askopenfilename(
     initialdir = os.getcwd(),title = "Select Image File",
     filetypes=(("JPG FILE","*.jpg"),("PNG FILE","*.png"),("ALL FILE","*.*")))
